@@ -165,6 +165,8 @@ nav {
 }
 
 .title p {
+    height: 57px;
+    overflow: hidden;
 	font-size: 18px;
 	line-height: 30px;
 	font-weight: 300;

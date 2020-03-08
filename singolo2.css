@@ -166,12 +166,14 @@ nav {
 } 
 
 .profiles-item h2 {
+    overflow: hidden;
     margin-top: 15px;
     font-size: 18px;
     line-height: 18px;
     color: #666d89;
     font-family: "Lato";
     font-weight: 900;
+    height: 18px;
 }
 
 .profiles-item p {
