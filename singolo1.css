@@ -14,7 +14,7 @@ div {
 }
 
 header {
-	height: 89px;
+	height: 90px;
 	background-color: #2d303a;
 	border-bottom: 5px solid #323746;
 }
@@ -55,6 +55,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
+    margin-top: 48px;
 }
 
 .information-heading {
@@ -73,11 +74,12 @@ nav {
 }
 
 .information-para {
-	margin-top: 6px;
+	margin-top: 9px;
     font-size: 12px;
     font-weight: 400px;
 	line-height: 22px;
     color: #666d89;
+    text-align: justify;
 }
 
 .information-text {
@@ -121,7 +123,7 @@ nav {
 .menu li {
 	float: left;
 	display: block;
-	margin-left: 25px;
+	margin-left: 28px;
 }
 
 .menu a {
@@ -136,12 +138,17 @@ nav {
 	color: #f06c64;
 }
 
+.our-services {
+    background-color: #f2f2f2;
+}
+
+
 .slider{
     position: relative;
 }
 
 .slider-block {
-	height: 595px;
+	height: 594px;
     background: #f06c64;
     border-bottom: 6px solid #ea676b;
 }
@@ -162,5 +169,5 @@ nav {
 	line-height: 30px;
 	font-weight: 300;
 	margin-top: 20px;
-	margin-bottom: 45px; 
+    text-align: justify;
 }
